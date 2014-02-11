@@ -20,7 +20,7 @@ Rosso:						#EC1C24;
 	
 }
 .nav img{ 
-	width:34px !important; 
+	width:34px; 
 	height:auto !important;
     display:inline !important;}
 .nav li span {
@@ -38,7 +38,64 @@ Rosso:						#EC1C24;
 	
 }
 
-
+.first-link{
+	    margin-left: 24px;
+    }
+    .logged-user-img { 
+    width: 90px !important;
+    height: 90px !important;
+    border-radius:90px; 
+    -moz-border-radius:90px; 
+    -webkit-border-radius:90px; 
+    border: 8px solid #ffffff;
+    box-shadow: 0px 4px 0px rgba(0,0,0,0.2),0px -4px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 4px 0px rgba(0,0,0,0.2),0px -4px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 4px 0px rgba(0,0,0,0.2),0px -4px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    right: 10px;
+    top:0px;}
+    .logged-li{
+	    position: relative;
+	    text-align: left !important;
+    }
+    .logged-user-name{
+	    font-size: 20px;
+	    font-style: italic;
+	    color:#485151;
+	    font-weight: bold;
+	    text-transform: none !important;
+	    text-align: left !important;
+	    line-height: 20px !important;
+	    height: auto !important;
+	    text-align: left !important;
+	    box-shadow: inset 0px 0px 0px 0px #fff !important;
+	    -webkit-box-shadow: inset 0px 0px 0px 0px #fff !important;
+	    -moz-box-shadow: inset 0px 0px 0px 0px #fff !important;
+	    padding-top: 20px ;
+	    padding-left: 24px ;
+	    margin: 0px;
+	   
+	        }
+    .logged-user-name-link{
+	    font-size: 13px;
+	    font-style: italic;
+	    color:#EB1B24 !important;
+	    font-weight: bold;
+	    line-height: 13px !important;
+	    height: auto !important;
+	    display: inline-block !important;
+	    text-align: left !important;
+	    box-shadow: inset 0px 0px 0px 0px #fff !important;
+	    -webkit-box-shadow: inset 0px 0px 0px 0px #fff !important;
+	    -moz-box-shadow: inset 0px 0px 0px 0px #fff !important;
+	     
+	    
+	 
+    }
+    .span-user{
+    height:86px;
+    width: auto;
+    display: block;}
 /* Adding some background color to the different menu items */
 
 .nav li:nth-child(6n+1) {
@@ -174,6 +231,13 @@ Rosso:						#EC1C24;
 
 @media (min-width: 50em) and (max-width: 61.250em) {
 
+	.logged-li img{ 
+		min-width: 80px !important;
+		min-height: 80px !important;
+		right: -10px;
+		top:5px;
+	}
+
 	/* Size and font adjustments to make it fit into the screen*/
 	.nav ul {
 		font-size: 1.2em;
@@ -198,7 +262,25 @@ Rosso:						#EC1C24;
 
 /* CSS specific to the 2x3 columns version */
 @media (min-width:32.5em) and (max-width: 49.938em) {
+
+	.logged-li img{ 
+		left: 10px;
+	}
+
+	.logged-li .logged-user-name{
+		padding-left: 120px; 
+		
+	}
 	
+	.logged-li .logged-user-name-link{
+	font-size: 20px;
+	}
+	
+	.logged-li .first-link{
+	padding-left: 100px; 
+	}
+
+		
 	/* Creating the 2 column layout using floating elements once again */
 	.nav li {
 		display: block;
@@ -258,6 +340,27 @@ Rosso:						#EC1C24;
 
 
 @media (max-width: 32.438em) {
+
+
+	.logged-li img{ 
+		left: 10px;
+		width: 70px !important;
+		height: 70px !important;
+	}
+
+	.logged-li .logged-user-name{
+		padding-left: 100px; 
+		
+	}
+	
+	.logged-li .logged-user-name-link{
+	font-size: 20px;
+	}
+	
+	.logged-li .first-link{
+	padding-left: 80px; 
+	}
+
 
 	/* Unhiding the styled menu link */
 	.nav .navtoogle{
