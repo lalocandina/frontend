@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>La Locandina.it - Annunci</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- Bootstrap -->
+     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/menu.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+
+   <div class="container main-content">
+   
+   
+   
+       <!-- Header -->
+    <div class="row header">
+        <div class="col-md-3 col-sm-3">
+            <img src="http://placehold.it/160x90/eeeeee&amp;text=Adv+Manchette" class="img-responsive pull-left img-rounded manchette-sx hidden-xs"
+            />
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <a href="#" title="lalocandina.it" target="_self"><img src="assets/images/logo.png" class="img-responsive center-block" /></a>
+        </div>
+        <div class="col-md-3 col-sm-3">
+            <img src="http://placehold.it/160x90/eeeeee&amp;text=Adv+Manchette" class="img-responsive pull-right img-rounded manchette-dx hidden-xs"
+            />
+        </div>
+    </div>
+    <!-- Header -->
+    <!-- Menu -->
+    <div class="row">
+        
+        
+            <nav id="menu" class="nav">
+                <ul>
+                    <li> <a href="#" title="">
+
+                <span><img src="assets/menu-icn/menu-annunci.png" class="img-responsive" /> Annunci</span>
+
+            </a>
+                    </li>
+                    <li> <a href="#" title=""><span><img src="assets/menu-icn/menu-baratto.png" class="img-responsive" /> Baratto</span></a> 
+                    </li>
+                    <li> <a href="#" title=""><span><img src="assets/menu-icn/menu-amoltomeno.png" class="img-responsive" /> A Molto Meno</span></a>
+                    </li>
+                    <li> <a href="#" title=""><span><img src="assets/menu-icn/menu-agora.png" class="img-responsive" /> Agor&agrave;</span></a> 
+                    </li>
+                    <li> <a href="#" title=""> <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-default login-btn btn-default">Accedi</button> <!--<font style="text-transform: lowercase;">- o -</font>--> <button type="button" class="btn btn-danger registration-btn btn-default">Registrati</button> </a>
+                    </li>
+                </ul>
+            </nav>
+        
+    </div>
+    <!-- Menu -->
+    
+
+    
+    
+    
+    <!-- Modle Login -->
+   <div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title gfont italic-font" style="color:#EC1C24;">Accedi al tuo account</h4>
+      </div>
+      <div class="modal-body">
+        <form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Indirizzo email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+    <div class="checkbox">
+    <label>
+      <input type="checkbox"> Ricorda i dati di accesso
+    </label>
+  </div>
+  
+
+      </div>
+      <div class="modal-footer">
+      <div class="pull-left" style="text-align:left">
+		<a style="cursor:pointer" class="gfont italic-font" id="LostPassword">Hai dimenticato la password?</a>
+		<br>
+		<a style="cursor:pointer" class="gfont italic-font" id="RegistrationLink">Registrati al sito</a>
+					</div>
+        <button type="submit" class="btn btn-default" data-dismiss="modal">Annulla</button>
+        <button type="button" class="btn btn-primary">Conferma</button></form>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- Modle Login -->
+    
+    
+    <div style="clear: both;"></div>
+    <!-- Search Area -->
+    <form class="form-inline">
+        <div class="row main-form-row-orange">
+            <div class="col-md-4 col-sm-4  col-xs-12">
+                <select type="text" class="input-xlarge main-form main-form-grey" placeholder="Categorie">
+	                <option>Categorie</option>
+	                <option>2</option>
+                </select></div>
+                <div class="col-md-4 col-sm-4  col-xs-12">
+                <input type="text" class="input-xlarge main-form main-form-red" placeholder="Cerca..."
+                />
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-4">
+                <button type="submit" class="btn btn-default red-input-btn btn-default">
+                    <img src="assets/images/red-search-btn.png" onmouseover="this.src='assets/images/red-search-btn-hover.png'" onmouseout="this.src='assets/images/red-search-btn.png'"  class="img-responsive" />
+                </button>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-8"> <a href="" title="" target=""><img src="assets/images/main-add-btn.png" onmouseover="this.src='assets/images/main-add-btn-hover.png'" onmouseout="this.src='assets/images/main-add-btn.png'" class="img-responsive" /></a> 
+            </div>
+        </div>
+    </form>
+    <!-- Search Area -->
+    
+    
+    <!-- Main News Area -->
+    <div class="row">
+	    <div class="col-md-12">
+	    <p class="annunci-title gfont">Cerca nelle nostre sezioni</p>
+	    <p class="annunci-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	    </div>
+    </div>
+    <div class="row">
+    <!-- Box Categoria-->
+    <div class="annunci-item-box">
+	    <div class="orange-space">
+	    	<div class="asb-label-div"><span class="qt gfont">1230</span></div>
+		    <p class="title gfont">Immobili</p>
+		    <div class="circle">
+			    <span class="icon-span"><img src="assets/annunci-icn/home.png"></span>
+		    </div>
+	    </div>
+	    <p class="first-link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
+	    <a href="#" class="bottom-link gfont">Lorem ipsum 300 More...</a>
+    </div>
+     <!-- Box Categoria-->
+      <!-- Box Categoria-->
+    <div class="annunci-item-box">
+	    <div class="orange-space">
+	    	<div class="asb-label-div"><span class="qt gfont">1230</span></div>
+		    <p class="title gfont">Veicoli</p>
+		    <div class="circle">
+			    <span class="icon-span"><img src="assets/annunci-icn/car.png"></span>
+		    </div>
+	    </div>
+	    <p class="first-link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
+	    <a href="#" class="bottom-link gfont">Lorem ipsum 300 More...</a>
+    </div>
+     <!-- Box Categoria-->
+      <!-- Box Categoria-->
+    <div class="annunci-item-box">
+	    <div class="orange-space">
+	    	<div class="asb-label-div"><span class="qt gfont">1230</span></div>
+		    <p class="title gfont">Mercato</p>
+		    <div class="circle">
+			    <span class="icon-span"><img src="assets/annunci-icn/mercato.png"></span>
+		    </div>
+	    </div>
+	    <p class="first-link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
+	    <a href="#" class="bottom-link gfont">Lorem ipsum 300 More...</a>
+    </div>
+     <!-- Box Categoria-->
+      <!-- Box Categoria-->
+    <div class="annunci-item-box">
+	    <div class="orange-space">
+	    	<div class="asb-label-div"><span class="qt gfont">1230</span></div>
+		    <p class="title gfont">Lavori & Servizi</p>
+		    <div class="circle">
+			    <span class="icon-span"><img src="assets/annunci-icn/job.png"></span>
+		    </div>
+	    </div>
+	    <p class="first-link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
+	    <a href="#" class="bottom-link gfont">Lorem ipsum 300 More...</a>
+    </div>
+     <!-- Box Categoria-->
+      <!-- Box Categoria-->
+    <div class="annunci-item-box">
+	    <div class="orange-space">
+	    	<div class="asb-label-div"><span class="qt gfont">1230</span></div>
+		    <p class="title gfont">Tempo libero</p>
+		    <div class="circle">
+			    <span class="icon-span"><img src="assets/annunci-icn/misc.png"></span>
+		    </div>
+	    </div>
+	    <p class="first-link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
+	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
+	    <a href="#" class="bottom-link gfont">Lorem ipsum 300 More...</a>
+    </div>
+     <!-- Box Categoria-->
+    </div>
+ 
+
+
+
+
+<!-- Divider -->
+<div class="row">
+    <div class="col-md-12 colored-divider"></div>
+</div>
+<!-- Divider -->
+
+
+<div class="row">
+<div class="col-md-12">
+	<p class="orange-ribbon"><img src="assets/images/orange-ribbon.png"></p>
+	<p class="feat-annunci-title gfont">Annunci coi Fiocchi </p>
+	<p class="feat-annunci-subtitle gfont">Lorem ipsum dolor sit <b>amet</b>, consectetur adipisicing elit.</p>
+</div>
+</div>
+
+
+<div class="row">
+	<div class="col-md-4 col-sm-4">
+	<div class="feat-annunci-box">
+		<div style="position:relative">
+		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<div class="circle"><img src="assets/annunci-icn/misc.png" width="43" height="50"></div>
+		</div>
+		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		<p class="box-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+		<div class="social-box-cont">
+			<a class="box-social-fb" href="#" title="Condividi su facebook" target="_blank"></a> 
+            <a class="box-social-tw" href="#" title="Condividi su twitter" target="_blank"></a>
+            <a class="box-social-plus" href="#" title="Condividi su google" target="_blank"></a> 
+        </div>
+	</div>
+	</div>
+	
+	<div class="col-md-4 col-sm-4">
+	<div class="feat-annunci-box">
+		<div style="position:relative">
+		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<div class="circle"><img src="assets/annunci-icn/car.png" width="50" height="32"></div>
+		</div>
+		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		<p class="box-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+		<div class="social-box-cont">
+			<a class="box-social-fb" href="#" title="Condividi su facebook" target="_blank"></a> 
+            <a class="box-social-tw" href="#" title="Condividi su twitter" target="_blank"></a>
+            <a class="box-social-plus" href="#" title="Condividi su google" target="_blank"></a> 
+        </div>
+	</div>
+	</div>
+
+
+<div class="col-md-4 col-sm-4">
+	<div class="feat-annunci-box">
+		<div style="position:relative">
+		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<div class="circle"><img src="assets/annunci-icn/mercato.png" width="45" height="41"></div>
+		</div>
+		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		<p class="box-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+		<div class="social-box-cont">
+			<a class="box-social-fb" href="#" title="Condividi su facebook" target="_blank"></a> 
+            <a class="box-social-tw" href="#" title="Condividi su twitter" target="_blank"></a>
+            <a class="box-social-plus" href="#" title="Condividi su google" target="_blank"></a> 
+        </div>
+	</div>
+	</div>
+	
+	<div class="col-md-4 col-sm-4">
+	<div class="feat-annunci-box">
+		<div style="position:relative">
+		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<div class="circle"><img src="assets/annunci-icn/home.png" width="42" height="45"></div>
+		</div>
+		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		<p class="box-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+		<div class="social-box-cont">
+			<a class="box-social-fb" href="#" title="Condividi su facebook" target="_blank"></a> 
+            <a class="box-social-tw" href="#" title="Condividi su twitter" target="_blank"></a>
+            <a class="box-social-plus" href="#" title="Condividi su google" target="_blank"></a> 
+        </div>
+	</div>
+	</div>
+	
+	<div class="col-md-4 col-sm-4">
+	<div class="feat-annunci-box">
+		<div style="position:relative">
+		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<div class="circle"><img src="assets/annunci-icn/job.png" width="44" height="41"></div>
+		</div>
+		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		<p class="box-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+		<div class="social-box-cont">
+			<a class="box-social-fb" href="#" title="Condividi su facebook" target="_blank"></a> 
+            <a class="box-social-tw" href="#" title="Condividi su twitter" target="_blank"></a>
+            <a class="box-social-plus" href="#" title="Condividi su google" target="_blank"></a> 
+        </div>
+	</div>
+	</div>
+
+
+<div class="col-md-4 col-sm-4">
+	<div class="feat-annunci-box">
+		<div style="position:relative">
+		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<div class="circle"><img src="assets/annunci-icn/mercato.png" width="45" height="41"></div>
+		</div>
+		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		<p class="box-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+		<div class="social-box-cont">
+			<a class="box-social-fb" href="#" title="Condividi su facebook" target="_blank"></a> 
+            <a class="box-social-tw" href="#" title="Condividi su twitter" target="_blank"></a>
+            <a class="box-social-plus" href="#" title="Condividi su google" target="_blank"></a> 
+        </div>
+	</div>
+	</div>
+
+		</div>
+
+<!-- Divider -->
+<div class="row">
+    <div class="col-md-12 colored-divider"></div>
+</div>
+<!-- Divider -->
+
+
+<div class="row">
+    	<div class="col-md-6">
+     		<!-- Listing -->
+     		<div class="col-md-12 activity-listing-section">
+		    	<p class="title gfont">Lorem ipsum dolor</p>
+		    	<div class="col-md-12">
+		    	<div class="col-md-3">
+		    	<img class="img-circle footer-thumbnails img-responsive" src="http://placehold.it/80x80/eeeeee&amp;text=&infin;"/>
+		    	</div>	
+		    	<div class="col-md-9">
+		    	<p class="list-title gfont">Lorem ipsum dolor</p>
+		    	<p class="list-exc gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt... </p>
+		    	</div>
+		    	<div class="col-md-3">
+		    	<img class="img-circle footer-thumbnails img-responsive" src="http://placehold.it/80x80/eeeeee&amp;text=&infin;"/>
+		    	</div>	
+		    	<div class="col-md-9">
+		    	<p class="list-title gfont">Lorem ipsum dolor</p>
+		    	<p class="list-exc gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt... </p>
+		    	</div>
+		    	<div class="col-md-3">
+		    	<img class="img-circle footer-thumbnails img-responsive" src="http://placehold.it/80x80/eeeeee&amp;text=&infin;"/>
+		    	</div>	
+		    	<div class="col-md-9">
+		    	<p class="list-title gfont">Lorem ipsum dolor</p>
+		    	<p class="list-exc gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt... </p>
+		    	</div>
+		    	<div class="col-md-3">
+		    	<img class="img-circle footer-thumbnails img-responsive" src="http://placehold.it/80x80/eeeeee&amp;text=&infin;"/>
+		    	</div>	
+		    	<div class="col-md-9">
+		    	<p class="list-title gfont">Lorem ipsum dolor</p>
+		    	<p class="list-exc gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt... </p>
+		    	</div>
+		    	</div>
+		    </div>
+    	</div>
+    	  <a name="video"></a>
+	    <!-- Video-->
+	    <div class="col-md-6">
+	    	<div class="col-md-12 activity-video-section">
+		    	<p class="title gfont">Video Tutorial</p>
+		    	<div class="col-md-6">
+		    		<iframe width="100%" height="auto" src="//www.youtube.com/embed/H7jtC8vjXw8?rel=0" frameborder="0" allowfullscreen></iframe>
+		    		<p class="vid-title gfont">Lorem ipsum dolor</p>
+		    		<p class="vid-subtitle gfont"><span class="glyphicon glyphicon-time"></span> Lorem ipsum 10/13</p>
+		    		<p class="vid-exc gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt... </p>
+		    	</div>
+		    	<div class="col-md-6">
+			    	<iframe width="100%" height="auto" src="//www.youtube.com/embed/H7jtC8vjXw8?rel=0" frameborder="0" allowfullscreen></iframe>
+		    		<p class="vid-title gfont">Lorem ipsum dolor</p>
+		    		<p class="vid-subtitle gfont"><span class="glyphicon glyphicon-time"></span> Lorem ipsum 10/13</p>
+		    		<p class="vid-exc gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt... </p>
+		    	</div>
+		    </div>
+		</div>
+    </div>    
+
+
+
+
+
+</div>
+<!-- Footer -->
+<div class="footer">
+    <div class="row">
+        <div class="col-md-12 col-sm-12  footer-top"></div>
+    </div>
+    <div class="row footer-content">
+        <div class="col-md-12 col-sm-12">
+            <div class="container">
+                <div class="row footer-row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        
+<h4><span>Lorem ipsum</span></h4>
+                        <img class="img-responsive" src="http://placehold.it/250x100/dddddd&amp;text=&infin;"
+                        />
+                        <p class="gfont italic-font thin-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt...</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12" id="link-area">
+                        
+<h4><span>Some Link Here</span></h4>
+                        <ul class="gfont italic-font">
+                            <li><a href="" target="_blank" title="">Lorem ipsum</a></li>
+                            <li><a href="" target="_blank" title="">Lorem ipsum</a></li>
+                            <li><a href="" target="_blank" title="">Lorem ipsum</a></li>
+                            <li><a href="" target="_blank" title="">Lorem ipsum</a></li>
+                        </ul>
+                        <hr />
+                        <ul class="gfont italic-font">
+                            <li><a href="" target="_blank" title="">Lorem ipsum</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        
+<h4><span>Some text here</span></h4>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td width="58">
+                                        <img class="img-circle footer-thumbnails img-responsive" src="http://placehold.it/50x50/eeeeee&amp;text=&infin;"
+                                        />
+                                    </td>
+                                    <td class="bordered-td"><a href="" target="_blank" title=""><span class="gfont thin-font italic-font table-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="58">
+                                        <img class="img-circle footer-thumbnails img-responsive" src="http://placehold.it/50x50/eeeeee&amp;text=&infin;"
+                                        />
+                                    </td>
+                                    <td class="bordered-td"><a href="" target="_blank" title=""><span class="gfont thin-font italic-font table-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="58">
+                                        <img class="img-circle footer-thumbnails img-responsive" src="http://placehold.it/50x50/eeeeee&amp;text=&infin;"
+                                        />
+                                    </td>
+                                    <td class="bordered-td"><a href="" target="_blank" title=""><span class="gfont thin-font italic-font table-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12" id="contact-area">
+                        
+<h4><span>Contacts</span></h4>
+                        <ul class="gfont italic-font">
+                            <li class="footer-map">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li class="footer-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li class="footer-mouse">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        </ul>
+<a href="#" class="footer-link link-facebook"></a>
+<a href="#" class="footer-link link-twitter"></a>
+                        <a
+                        href="#" class="footer-link link-google"></a>
+<a href="#" class="footer-link link-rss"></a>
+<a href="#" class="footer-link link-point"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row copyright gfont">
+        <div class="col-md-12 col-sm-12">
+            <div class="container">
+                <div class="col-md-6 col-sm-6">
+                    <p>Copyright © 2013 - Lalocandina.it</p>
+                </div>
+                <div class="col-md-6 col-sm-6 text-right">
+                    <p><a href="#">page one</a>|<a href="#">page two</a>|<a href="#">page three</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+   <!-- Footer -->
+  
+   
+    <!-- Javascript Code -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
+
+
+  </body>
+</html>
