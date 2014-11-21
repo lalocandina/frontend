@@ -1,0 +1,449 @@
+/* ---------------- Colori Principali -----------------
+Agora (Blu):				#6699FF;
+Baratto (Verde):			#93CC5F;
+A Molto Meno (Viola):		#CC6699;
+Annunci (Arancione):		#FF9933;
+Rosso:						#EC1C24;
+---------------- Colori Principali -----------------*/
+
+/* Global CSS that are applied for all screen sizes */
+
+.nava ul {
+	font-family: 'Asap', sans-serif;
+	text-transform:uppercase;
+	max-width: 960px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 1.5em;
+	font-weight: 300;
+	
+}
+.nava img{ 
+	width:34px; 
+	height:auto !important;
+    display:inline !important;}
+.nava li span {
+	display: block;
+}
+
+.nava a {
+	box-shadow: inset -1px 0px 0px 0px rgb(255,255,255);
+	-webkit-box-shadow: inset -1px 0px 0px 0px rgb(255,255,255);
+	-moz-box-shadow: inset -1px 0px 0px 0px rgb(255,255,255);
+	display: block;
+	color:#495151;
+	text-decoration: none;
+	
+	
+}
+
+.first-link{
+	    margin-left: 24px;
+    }
+    .logged-user-img { 
+    width: 90px !important;
+    height: 90px !important;
+    border-radius:90px; 
+    -moz-border-radius:90px; 
+    -webkit-border-radius:90px; 
+    border: 8px solid #ffffff;
+    box-shadow: 0px 4px 0px rgba(0,0,0,0.2),0px -4px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 4px 0px rgba(0,0,0,0.2),0px -4px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 4px 0px rgba(0,0,0,0.2),0px -4px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    right: 10px;
+    top:0px;}
+    .logged-li{
+	    position: relative;
+	    text-align: left !important;
+    }
+    .logged-user-name{
+	    font-size: 20px;
+	    font-style: italic;
+	    color:#485151;
+	    font-weight: bold;
+	    text-transform: none !important;
+	    text-align: left !important;
+	    line-height: 20px !important;
+	    height: auto !important;
+	    text-align: left !important;
+	    box-shadow: inset 0px 0px 0px 0px #fff !important;
+	    -webkit-box-shadow: inset 0px 0px 0px 0px #fff !important;
+	    -moz-box-shadow: inset 0px 0px 0px 0px #fff !important;
+	    padding-top: 20px ;
+	    padding-left: 24px ;
+	    margin: 0px;
+	   
+	        }
+    .logged-user-name-link{
+	    font-size: 13px;
+	    font-style: italic;
+	    color:#EB1B24 !important;
+	    font-weight: bold;
+	    line-height: 13px !important;
+	    height: auto !important;
+	    display: inline-block !important;
+	    text-align: left !important;
+	    box-shadow: inset 0px 0px 0px 0px #fff !important;
+	    -webkit-box-shadow: inset 0px 0px 0px 0px #fff !important;
+	    -moz-box-shadow: inset 0px 0px 0px 0px #fff !important;
+	     
+	    
+	 
+    }
+    .span-user{
+    height:86px;
+    width: auto;
+    display: block;}
+/* Adding some background color to the different menu items */
+
+.nava li:nth-child(6n+1) {
+	/*border-bottom:6px solid #6699FF;*/
+	background-image:url(../menu-icn/menu-bg.png);
+	background-repeat:no-repeat;
+	background-position:0px bottom;
+	background-color:#fff;
+	transition: background-position 0.4s;
+	-webkit-transition: background-position 0.4s;
+	-moz-transition: background-position 0.4s;
+	
+}
+.nava li:nth-child(6n+1):hover {
+	background-image:url(../menu-icn/menu-bg.png);
+	background-repeat:no-repeat;
+	background-position:-500px bottom;
+	
+	
+}
+
+.nava li:nth-child(6n+2) {
+	/*border-bottom:6px solid #93CC5F;*/
+	background-image:url(../menu-icn/menu-bg.png);
+	background-repeat:no-repeat;
+	background-position:-1000px bottom;
+	background-color:#fff;
+	transition: background-position 0.4s;
+	-webkit-transition: background-position 0.4s;
+	-moz-transition: background-position 0.4s;
+}
+.nava li:nth-child(6n+2):hover {
+	background-image:url(../menu-icn/menu-bg.png);
+	background-repeat:no-repeat;
+	background-position:-1500px bottom;
+	
+	
+}
+
+.nava li:nth-child(6n+3) {
+	/*border-bottom:6px solid #CC6699;*/
+	background-image:url(../menu-icn/menu-bg.png);
+	background-repeat:no-repeat;
+	background-position:-2000px bottom;
+	background-color:#fff;
+	transition: background-position 0.4s;
+	-webkit-transition: background-position 0.4s;
+	-moz-transition: background-position 0.4s;
+}
+.nava li:nth-child(6n+3):hover {
+	background-image:url(../menu-icn/menu-bg.png);
+	background-repeat:no-repeat;
+	background-position:-2500px bottom;
+	
+	
+}
+.nava li:nth-child(6n+4) {
+	/*border-bottom:6px solid #FF9933;*/
+	background-image:url(../menu-icn/menu-bg.png);
+	background-repeat:no-repeat;
+	background-position:-3000px bottom;	background-color:#fff;
+	transition: background-position 0.4s;
+	-webkit-transition: background-position 0.4s;
+	-moz-transition: background-position 0.4s;
+}
+.nava li:nth-child(6n+4):hover {
+	background-image:url(../menu-icn/menu-bg.png);
+	background-repeat:no-repeat;
+	background-position:-3500px bottom;
+	
+	
+}
+.nava li:nth-child(6n+5) {
+	/*border-bottom:6px solid #EC1C24;*/
+	background-image:url(../menu-icn/red.png);
+	background-repeat:repeat-x;
+	background-position:bottom left;
+	background-color:#fff;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+}
+
+
+/* For screen bigger than 800px */
+@media (min-width: 50em) {
+
+	/* Transforms the list into a horizontal navigation */
+	.nava li {
+		float: left;
+		width: 16%;
+		text-align: center;
+		
+	}
+		.nava li:nth-child(6n+3) {
+		width: 24%;
+	
+	}
+	.nava li:nth-child(6n+5){
+		width: 28%;
+	
+	}
+
+	.nava a {
+		display: block;
+		width: auto;
+	}
+
+	
+	/* Animating the height of the element*/
+	.nava a {
+		height: 86px;
+	}
+
+	.no-touch .nava a:hover ,
+	.nava a:active ,
+	.nava a:focus {
+		
+		
+	}	
+	.nava a:hover ,
+	.nava a:active ,
+	.nava a:focus {
+
+	}
+.nava a{
+        line-height:80px;
+		}
+	
+	
+		
+}
+
+@media (min-width: 50em) and (max-width: 61.250em) {
+
+	.logged-li img{ 
+		min-width: 80px !important;
+		min-height: 80px !important;
+		right: -10px;
+		top:5px;
+	}
+
+	/* Size and font adjustments to make it fit into the screen*/
+	.nava ul {
+		font-size: 1.2em;
+	}	
+	.nava img{ 
+	width:26px !important; 
+	height:auto !important;}
+}
+
+/* The "tablet" and "mobile" version */
+
+@media (max-width: 49.938em) {		
+
+	.nava li:last-child {
+		width: 100%;
+	
+	}
+	
+		
+
+}
+
+/* CSS specific to the 2x3 columns version */
+@media (min-width:32.5em) and (max-width: 49.938em) {
+
+	.logged-li img{ 
+		left: 10px;
+	}
+
+	.logged-li .logged-user-name{
+		padding-left: 120px; 
+		
+	}
+	
+	.logged-li .logged-user-name-link{
+	font-size: 20px;
+	}
+	
+	.logged-li .first-link{
+	padding-left: 100px; 
+	}
+
+		
+	/* Creating the 2 column layout using floating elements once again */
+	.nava li {
+		display: block;
+		float: left;
+		width: 50%;
+	}
+	
+	/* Adding some padding to make the elements look nicer*/
+	.nava a {
+		padding: 0.8em;		
+	}
+
+	/* Displaying the icons on the left, and the text on the right side using inlin-block*/
+	.nava li span {
+		display: inline-block;
+	}
+
+	
+.nava li:nth-child(6n+5), .nava li:nth-child(6n+5):hover {
+		text-align:center;
+		background: #EAF3F0 !important;
+		border-bottom:4px solid #EC1C24;
+	}
+	
+}
+
+/* Adapting the font size and width for smaller screns*/
+@media (min-width: 32.5em) and (max-width: 38.688em) {
+	
+	
+}
+
+/* Styling the toggle menu link and hiding it */
+.nava .navatoogle{
+	display: none;	
+	width: 100%;
+	padding: 0.5em 0.5em 0.8em;
+	font-family: 'Lato',Calibri,Arial,sans-serif;
+	font-weight: normal;
+	text-align: left;
+	color: rgb(7, 16, 15);
+	font-size: 1.2em;
+	background: none;	
+	border: none;
+	border-bottom: 4px solid rgb(221, 221, 221);
+	cursor: pointer;
+}
+
+
+.icon-menu {
+	position: relative;
+	top: 3px;
+	line-height: 0;
+	font-size: 1.6em;
+}
+
+
+
+@media (max-width: 32.438em) {
+
+
+	.logged-li img{ 
+		left: 10px;
+		width: 70px !important;
+		height: 70px !important;
+	}
+
+	.logged-li .logged-user-name{
+		padding-left: 100px; 
+		
+	}
+	
+	.logged-li .logged-user-name-link{
+	font-size: 20px;
+	}
+	
+	.logged-li .first-link{
+	padding-left: 80px; 
+	}
+
+
+	/* Unhiding the styled menu link */
+	.nava .navatoogle{
+		margin: 0;
+		display: block;
+	}
+	
+	/* Animating the height of the navigation when the button is clicked */
+	
+	/* When JavaScript is disabled, we hide the menu */
+	.no-js .nava ul {
+		max-height: 30em;
+		overflow: hidden;
+	}
+	
+	/* When JavaScript is enabled, we hide the menu */
+	.js .nava ul {
+		max-height: 0em;
+		overflow: hidden;
+	}
+	
+	/* Displaying the menu when the user has clicked on the button*/
+	.js .nava .active + ul {		
+		max-height: 30em;
+		overflow: hidden;
+		-webkit-transition: max-height .4s;
+		-moz-transition: max-height .4s;
+		-o-transition: max-height .4s;
+		-ms-transition: max-height .4s;
+		transition: max-height .4s;
+	}
+
+	/* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
+	
+	.nava li span {
+		display: inline-block;
+		height: 100%;
+	}
+
+	.nava a {
+		padding: 0.5em;		
+	}
+	
+	
+	
+	/* Adding a left border of 8 px with a different color for each menu item*/
+	.nava li:nth-child(6n+1), .nava li:nth-child(6n+1):hover {
+		text-align:center;
+		background: #fff !important;
+		border-left:4px solid #FF9933;
+		
+		
+	}
+
+	.nava li:nth-child(6n+2), .nava li:nth-child(6n+2):hover {
+		text-align:center;
+		background: #fff !important;
+		border-left:4px solid #93CC5F;
+	}
+
+	.nava li:nth-child(6n+3), .nava li:nth-child(6n+3):hover {
+		text-align:center;
+		background: #fff !important;
+		border-left:4px solid #CC6699;
+
+	}
+
+	.nava li:nth-child(6n+4), .nava li:nth-child(6n+4):hover {
+		text-align:center;
+		background: #fff !important;
+		border-left:4px solid #6699FF;
+	}
+
+	.nava li:nth-child(6n+5), .nava li:nth-child(6n+5):hover {
+		text-align:center;
+		background: #EAF3F0 !important;
+		border-left:4px solid #EC1C24;
+	}
+
+
+	/* make the nav bigger on touch screens */
+	.touch .nava a {
+		padding: 0.8em;
+	}
+}
+
