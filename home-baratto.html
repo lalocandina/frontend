@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>La Locandina.it - Annunci</title>
+    <title>La Locandina.it - Baratto</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <!-- Bootstrap -->
      <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-test.css" rel="stylesheet">
     <link href="assets/css/menu.css" rel="stylesheet">
+    <link href="assets/css/verticalstyle.css" type="text/css" rel="stylesheet" />
+    <link href="assets/css/baratto.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
 
@@ -35,25 +37,220 @@
     <!-- Menu -->
     <div class="row">
         
+        <style>
+        /* Clearfix */
+.clearfixed:before,
+.clearfixed:after {
+    content: " ";
+    display: table;
+}
+.clearfixed:after {
+    clear: both;
+}
+.clearfixed {
+    *zoom: 1;
+}
+
+/* Basic Styles */
+body {
+	background-color: #ece8e5;
+	margin:0px;
+	padding:0px;
+}
+nav {
+	margin: 0;
+	padding: 0;
+	
+	background: #fff;
+	position: relative;
+	display:block;
+}
+nav ul {
+	font-family: 'Asap', sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	font-weight: 300;
+	max-width:960px;
+	margin:0 auto;
+}
+nav li {
+	float: left;
+	width: 16%;
+	text-align: center;
+	display: inline;
+	float: left;
+}
+nav li.user {
+	width: 28%;
+}
+nav li.long {
+	width: 24%;
+}
+nav a {
+	color:#fff;
+	display:inline-block;
+	text-decoration:none;
+	line-height:40px;
+}
+nav li a {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	color:#495151;
+	display: block;
+	width: auto;
+	text-align: center;
+	text-decoration: none !important;
+	line-height: 80px;
+	transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+}
+nav a.annunci:hover, nav a.annunci:active {
+	background-color: #EAF2F0;
+	color:#FF9933;
+	box-shadow:inset 0px -1px 0px #FF9933;
+	-webkit-box-shadow:inset 0px -1px 0px #FF9933;
+	-moz-box-shadow:inset 0px -1px 0px #FF9933;
+}
+nav a.baratto:hover, nav a.baratto:active {
+	background-color: #EAF2F0;
+	color:#92CB5E;
+	box-shadow:inset 0px -1px 0px #92CB5E;
+	-webkit-box-shadow:inset 0px -1px 0px #92CB5E;
+	-moz-box-shadow:inset 0px -1px 0px #92CB5E;
+}
+nav a.amoltomeno:hover, nav a.amoltomeno:active {
+	background-color: #EAF2F0;
+	color:#CB6598;
+	box-shadow:inset 0px -1px 0px #CB6598;
+	-webkit-box-shadow:inset 0px -1px 0px #CB6598;
+	-moz-box-shadow:inset 0px -1px 0px #CB6598;
+}
+nav a.agora:hover, nav a.agora:active {
+	background-color: #EAF2F0;
+	color:#6699FF;
+	box-shadow:inset 0px -1px 0px #6699FF;
+	-webkit-box-shadow:inset 0px -1px 0px #6699FF;
+	-moz-box-shadow:inset 0px -1px 0px #6699FF;
+}
+
+nav a#pull {
+	display: none;
+}
+nav ul li img{
+	width: 34px;
+	height: auto !important;
+	display: inline !important;
+	vertical-align: middle;
+	margin-right:4px;}
+
+@media screen and (min-width: 768px) {
+nav ul li{
+	border-right:1px solid #eee;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;}
+	}
+
+@media screen and (max-width: 991px) {
+nav ul li img{
+	width: 26px !important;
+	}
+}
+
+
+
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 678px) {
+	nav { 
+  		height: auto;
+  	}
+  	nav ul {
+  		width: 100%;
+  		display: block;
+  		height: auto;
+  	}
+  	nav li {
+  		width: 50% !important;
+  		float: left;
+  		position: relative;
+		
+  	}
+	nav li.user {
+  		width:100% !important;
+		}
+  	nav li a {
+		text-indent: 0px;
+	}
+  	nav a {
+	  	text-align: left;
+	  	width: 100% !important;
+	  	text-indent: 25px;
+  	}
+}
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 678px) {
+	nav {
+		border-bottom: 0;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a#pull {
+		display: block;
+		background-color: #B8252B;
+		font-family: 'Asap', sans-serif;
+		width: 100%;
+		position: relative;
+		text-decoration: none !important;
+		text-transform: uppercase;
+		color: white !important;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('assets/images/nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+	nav li {
+  		width: 50% !important;
+  		float: left;
+  		position: relative;
+		
+  	}
+	nav li.user {
+  		width:100% !important;
+		}
+  	nav li a {
+		text-indent: 0px;
+	}
+}
+        </style>
         
-            <nav id="menu" class="nav">
-                <ul>
-                    <li> <a href="#" title="">
-
-                <span><img src="assets/menu-icn/menu-annunci.png" class="img-responsive" /> Annunci</span>
-
-            </a>
-                    </li>
-                    <li> <a href="#" title=""><span><img src="assets/menu-icn/menu-baratto.png" class="img-responsive" /> Baratto</span></a> 
-                    </li>
-                    <li> <a href="#" title=""><span><img src="assets/menu-icn/menu-amoltomeno.png" class="img-responsive" /> A Molto Meno</span></a>
-                    </li>
-                    <li> <a href="#" title=""><span><img src="assets/menu-icn/menu-agora.png" class="img-responsive" /> Agor&agrave;</span></a> 
-                    </li>
-                    <li> <a href="#" title=""> <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-default login-btn btn-default">Accedi</button> <!--<font style="text-transform: lowercase;">- o -</font>--> <button type="button" class="btn btn-danger registration-btn btn-default">Registrati</button> </a>
-                    </li>
-                </ul>
-            </nav>
+            <nav class="clearfixed">
+		<ul class="clearfixed">
+			<li><a class="annunci" href="#"><img src="http://alicantoisland.com/lalocandina/code/assets/menu-icn/menu-annunci.png">Annunci</a></li>
+			<li><a class="baratto" href="#"><img src="http://alicantoisland.com/lalocandina/code/assets/menu-icn/menu-baratto.png">Baratto</a></li>
+			<li class="long"><a class="amoltomeno" href="#"><img src="http://alicantoisland.com/lalocandina/code/assets/menu-icn/menu-amoltomeno.png">A Molto Meno</a></li>
+			<li><a class="agora" href="#"><img src="http://alicantoisland.com/lalocandina/code/assets/menu-icn/menu-agora.png">Agor&agrave;</a></li>
+			<li class="user"><a href="#" title=""> <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-default login-btn btn-default">Accedi</button> <!--<font style="text-transform: lowercase;">- o -</font>--> <button type="button" class="btn btn-danger registration-btn btn-default">Registrati</button> </a></li>
+		</ul>
+		<a href="#" id="pull">Menu</a>
+	</nav>
         
     </div>
     <!-- Menu -->
@@ -62,83 +259,75 @@
     
     
     
-    <!-- Modle Login -->
-   <div class="modal fade" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title gfont italic-font" style="color:#EC1C24;">Accedi al tuo account</h4>
-      </div>
-      <div class="modal-body">
-        <form role="form">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Indirizzo email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-    <div class="checkbox">
-    <label>
-      <input type="checkbox"> Ricorda i dati di accesso
-    </label>
-  </div>
-  
 
-      </div>
-      <div class="modal-footer">
-      <div class="pull-left" style="text-align:left">
-		<a style="cursor:pointer" class="gfont italic-font" id="LostPassword">Hai dimenticato la password?</a>
-		<br>
-		<a style="cursor:pointer" class="gfont italic-font" id="RegistrationLink">Registrati al sito</a>
-					</div>
-        <button type="submit" class="btn btn-default" data-dismiss="modal">Annulla</button>
-        <button type="button" class="btn btn-primary">Conferma</button></form>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-<!-- Modle Login -->
     
     
     <div style="clear: both;"></div>
     <!-- Search Area -->
     <form class="form-inline">
-        <div class="row main-form-row-orange">
-            <div class="col-md-4 col-sm-4  col-xs-12">
-                <select type="text" class="input-xlarge main-form main-form-grey" placeholder="Categorie">
-	                <option>Categorie</option>
-	                <option>2</option>
-                </select></div>
-                <div class="col-md-4 col-sm-4  col-xs-12">
-                <input type="text" class="input-xlarge main-form main-form-red" placeholder="Cerca..."
-                />
+        <div class="row main-form-row-map">
+       
+<div class="col-md-3 col-sm-3  col-xs-12">
+				<input type="text" class="form-control input-home" placeholder="Parola Chiave">
+                
             </div>
-            <div class="col-md-1 col-sm-1 col-xs-4">
-                <button type="submit" class="btn btn-default red-input-btn btn-default">
+            <div class="col-md-4 col-sm-4  col-xs-12">
+               <select class="form-control select-home" placeholder="Parola Chiave" style="width:100%;" width="100%">
+               <option value="" disabled="disabled" selected="selected">Categoria</option>
+    <optgroup label="Picnic">
+      <option>Mustard</option>
+      <option>Ketchup</option>
+      <option>Relish</option>
+    </optgroup>
+    <optgroup label="Camping">
+      <option>Tent</option>
+      <option>Flashlight</option>
+      <option>Toilet Paper</option>
+    </optgroup>
+  </select>
+                
+                
+    
+                </div>
+                
+            <div class="col-md-1 col-sm-1 col-xs-12">
+                <button type="submit" class="btn btn-default red-input-btn btn-default hidden-xs">
                     <img src="assets/images/red-search-btn.png" onmouseover="this.src='assets/images/red-search-btn-hover.png'" onmouseout="this.src='assets/images/red-search-btn.png'"  class="img-responsive" />
                 </button>
+               <button type="submit" class="btn btn-lg btn-success visible-xs center-block" style="margin:10px auto 20px auto;">Avvia Ricerca</button>
+                
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-8"> <a href="" title="" target=""><img src="assets/images/main-add-btn.png" onmouseover="this.src='assets/images/main-add-btn-hover.png'" onmouseout="this.src='assets/images/main-add-btn.png'" class="img-responsive" /></a> 
+                    
+        
+         <div class="col-md-4 col-sm-4 col-xs-12" >
+        
+         <button type="submit" class="btn btn-danger btn-block btn-lg addL-btn "><span class="glyphicon glyphicon-plus"></span> Inserisci annuncio</button>
+        
             </div>
+        
         </div>
     </form>
     <!-- Search Area -->
+    <script>
     
+    </script>
     
-    <!-- Main News Area -->
-    <div class="row">
-	    <div class="col-md-12">
-	    <p class="annunci-title gfont">Cerca nelle nostre sezioni</p>
-	    <p class="annunci-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-	    </div>
-    </div>
-    <div class="row">
+    <!-- Area Home Baratto -->
+  
+    
+
+
+
+
+<!-- Divider -->
+
+
+
+
+<div class="row baratto-main-row">
     <!-- Box Categoria-->
-    <div class="annunci-item-box">
-	    <div class="orange-space">
+    <div class="baratto-item-box">
+	    <div class="green-space">
 	    	<div class="asb-label-div"><span class="qt gfont">1230</span></div>
 		    <p class="title gfont">Immobili</p>
 		    <div class="circle">
@@ -155,8 +344,8 @@
     </div>
      <!-- Box Categoria-->
       <!-- Box Categoria-->
-    <div class="annunci-item-box">
-	    <div class="orange-space">
+    <div class="baratto-item-box">
+	    <div class="green-space">
 	    	<div class="asb-label-div"><span class="qt gfont">1230</span></div>
 		    <p class="title gfont">Veicoli</p>
 		    <div class="circle">
@@ -173,8 +362,8 @@
     </div>
      <!-- Box Categoria-->
       <!-- Box Categoria-->
-    <div class="annunci-item-box">
-	    <div class="orange-space">
+    <div class="baratto-item-box">
+	    <div class="green-space">
 	    	<div class="asb-label-div"><span class="qt gfont">1230</span></div>
 		    <p class="title gfont">Mercato</p>
 		    <div class="circle">
@@ -188,13 +377,12 @@
 	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
 	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
 	    <a href="#" class="bottom-link gfont">Lorem ipsum 300 More...</a>
-    </div>
-     <!-- Box Categoria-->
+    </div>     <!-- Box Categoria-->
       <!-- Box Categoria-->
-    <div class="annunci-item-box">
-	    <div class="orange-space">
+    <div class="baratto-item-box">
+	    <div class="green-space">
 	    	<div class="asb-label-div"><span class="qt gfont">1230</span></div>
-		    <p class="title gfont">Lavori & Servizi</p>
+		    <p class="title gfont">Lavoro & Servizi</p>
 		    <div class="circle">
 			    <span class="icon-span"><img src="assets/annunci-icn/job.png"></span>
 		    </div>
@@ -209,10 +397,10 @@
     </div>
      <!-- Box Categoria-->
       <!-- Box Categoria-->
-    <div class="annunci-item-box">
-	    <div class="orange-space">
+    <div class="baratto-item-box">
+	    <div class="green-space">
 	    	<div class="asb-label-div"><span class="qt gfont">1230</span></div>
-		    <p class="title gfont">Tempo libero</p>
+		    <p class="title gfont">Tempo Libero</p>
 		    <div class="circle">
 			    <span class="icon-span"><img src="assets/annunci-icn/misc.png"></span>
 		    </div>
@@ -224,15 +412,11 @@
 	    <p class="link-path"><a href="#" class="subsection-link gfont">Lorem ipsum dolor</a></p>
 	    <p class="link-path"><a href="#" class="subsection-link gfont">Dolor, sit amet</a></p>
 	    <a href="#" class="bottom-link gfont">Lorem ipsum 300 More...</a>
+    </div>     <!-- Box Categoria-->
     </div>
-     <!-- Box Categoria-->
-    </div>
- 
-
-
-
-
-<!-- Divider -->
+    
+    
+    <!-- Divider -->
 <div class="row">
     <div class="col-md-12 colored-divider"></div>
 </div>
@@ -241,19 +425,20 @@
 
 <div class="row">
 <div class="col-md-12">
-	<p class="orange-ribbon"><img src="assets/images/orange-ribbon.png"></p>
-	<p class="feat-annunci-title gfont">Annunci coi Fiocchi </p>
-	<p class="feat-annunci-subtitle gfont">Lorem ipsum dolor sit <b>amet</b>, consectetur adipisicing elit.</p>
+	<p class="green-ribbon"><img src="assets/images/green-ribbon.png"></p>
+	<p class="feat-baratto-title gfont">Barter coi Fiocchi </p>
+	<p class="feat-baratto-subtitle gfont">Lorem ipsum dolor sit <b>amet</b>, consectetur adipisicing elit.</p>
 </div>
 </div>
-
-
+    
+    
 <div class="row">
 <div class="col-md-12">
+	
 	<div class="col-md-4 col-sm-4">
-	<div class="feat-annunci-box">
+	<div class="feat-baratto-box">
 		<div style="position:relative">
-		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<img class="feat-baratto-img" src="http://placehold.it/300x200/cccccc/cccccc">
 		<div class="circle"><img src="assets/annunci-icn/misc.png" width="43" height="50"></div>
 		</div>
 		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -265,11 +450,25 @@
         </div>
 	</div>
 	</div>
-	
 	<div class="col-md-4 col-sm-4">
-	<div class="feat-annunci-box">
+	<div class="feat-baratto-box">
 		<div style="position:relative">
-		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<img class="feat-baratto-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<div class="circle"><img src="assets/annunci-icn/mercato.png" width="45" height="41"></div>
+		</div>
+		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		<p class="box-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+		<div class="social-box-cont">
+			<a class="box-social-fb" href="#" title="Condividi su facebook" target="_blank"></a> 
+            <a class="box-social-tw" href="#" title="Condividi su twitter" target="_blank"></a>
+            <a class="box-social-plus" href="#" title="Condividi su google" target="_blank"></a> 
+        </div>
+	</div>
+	</div>
+	<div class="col-md-4 col-sm-4">
+	<div class="feat-baratto-box">
+		<div style="position:relative">
+		<img class="feat-baratto-img" src="http://placehold.it/300x200/cccccc/cccccc">
 		<div class="circle"><img src="assets/annunci-icn/car.png" width="50" height="32"></div>
 		</div>
 		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -281,12 +480,33 @@
         </div>
 	</div>
 	</div>
+	
+</div>
+</div>
 
 
-<div class="col-md-4 col-sm-4">
-	<div class="feat-annunci-box">
+<div class="row">
+<div class="col-md-12">
+	
+	<div class="col-md-4 col-sm-4">
+	<div class="feat-baratto-box">
 		<div style="position:relative">
-		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<img class="feat-baratto-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<div class="circle"><img src="assets/annunci-icn/misc.png" width="43" height="50"></div>
+		</div>
+		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		<p class="box-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+		<div class="social-box-cont">
+			<a class="box-social-fb" href="#" title="Condividi su facebook" target="_blank"></a> 
+            <a class="box-social-tw" href="#" title="Condividi su twitter" target="_blank"></a>
+            <a class="box-social-plus" href="#" title="Condividi su google" target="_blank"></a> 
+        </div>
+	</div>
+	</div>
+	<div class="col-md-4 col-sm-4">
+	<div class="feat-baratto-box">
+		<div style="position:relative">
+		<img class="feat-baratto-img" src="http://placehold.it/300x200/cccccc/cccccc">
 		<div class="circle"><img src="assets/annunci-icn/mercato.png" width="45" height="41"></div>
 		</div>
 		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -298,15 +518,11 @@
         </div>
 	</div>
 	</div>
-</div>
-</div>	
-<div class="row">
-<div class="col-md-12">
 	<div class="col-md-4 col-sm-4">
-	<div class="feat-annunci-box">
+	<div class="feat-baratto-box">
 		<div style="position:relative">
-		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
-		<div class="circle"><img src="assets/annunci-icn/home.png" width="42" height="45"></div>
+		<img class="feat-baratto-img" src="http://placehold.it/300x200/cccccc/cccccc">
+		<div class="circle"><img src="assets/annunci-icn/car.png" width="50" height="32"></div>
 		</div>
 		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 		<p class="box-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
@@ -318,42 +534,11 @@
 	</div>
 	</div>
 	
-	<div class="col-md-4 col-sm-4">
-	<div class="feat-annunci-box">
-		<div style="position:relative">
-		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
-		<div class="circle"><img src="assets/annunci-icn/job.png" width="44" height="41"></div>
-		</div>
-		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-		<p class="box-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-		<div class="social-box-cont">
-			<a class="box-social-fb" href="#" title="Condividi su facebook" target="_blank"></a> 
-            <a class="box-social-tw" href="#" title="Condividi su twitter" target="_blank"></a>
-            <a class="box-social-plus" href="#" title="Condividi su google" target="_blank"></a> 
-        </div>
-	</div>
-	</div>
-
-
-<div class="col-md-4 col-sm-4">
-	<div class="feat-annunci-box">
-		<div style="position:relative">
-		<img class="feat-annunci-img" src="http://placehold.it/300x200/cccccc/cccccc">
-		<div class="circle"><img src="assets/annunci-icn/mercato.png" width="45" height="41"></div>
-		</div>
-		<p class="box-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-		<p class="box-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-		<div class="social-box-cont">
-			<a class="box-social-fb" href="#" title="Condividi su facebook" target="_blank"></a> 
-            <a class="box-social-tw" href="#" title="Condividi su twitter" target="_blank"></a>
-            <a class="box-social-plus" href="#" title="Condividi su google" target="_blank"></a> 
-        </div>
-	</div>
-	</div>
 </div>
-		</div>
-
-<!-- Divider -->
+</div>
+    
+    
+    <!-- Divider -->
 <div class="row">
     <div class="col-md-12 colored-divider"></div>
 </div>
@@ -419,10 +604,23 @@
     </div>    
 
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
-</div>
+   </div>
 <!-- Footer -->
 <div class="footer">
     <div class="row">
@@ -525,8 +723,25 @@
     <!-- Javascript Code -->
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
+       <script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
 
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
 
   </body>
 </html>

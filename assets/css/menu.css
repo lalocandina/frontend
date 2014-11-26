@@ -8,7 +8,7 @@ Rosso:						#EC1C24;
 
 /* Global CSS that are applied for all screen sizes */
 
-.nav ul {
+.nava ul {
 	font-family: 'Asap', sans-serif;
 	text-transform:uppercase;
 	max-width: 960px;
@@ -19,15 +19,15 @@ Rosso:						#EC1C24;
 	font-weight: 300;
 	
 }
-.nav img{ 
+.nava img{ 
 	width:34px; 
 	height:auto !important;
     display:inline !important;}
-.nav li span {
+.nava li span {
 	display: block;
 }
 
-.nav a {
+.nava a {
 	box-shadow: inset -1px 0px 0px 0px rgb(255,255,255);
 	-webkit-box-shadow: inset -1px 0px 0px 0px rgb(255,255,255);
 	-moz-box-shadow: inset -1px 0px 0px 0px rgb(255,255,255);
@@ -98,7 +98,7 @@ Rosso:						#EC1C24;
     display: block;}
 /* Adding some background color to the different menu items */
 
-.nav li:nth-child(6n+1) {
+.nava li:nth-child(6n+1) {
 	/*border-bottom:6px solid #6699FF;*/
 	background-image:url(../menu-icn/menu-bg.png);
 	background-repeat:no-repeat;
@@ -109,7 +109,7 @@ Rosso:						#EC1C24;
 	-moz-transition: background-position 0.4s;
 	
 }
-.nav li:nth-child(6n+1):hover {
+.nava li:nth-child(6n+1):hover {
 	background-image:url(../menu-icn/menu-bg.png);
 	background-repeat:no-repeat;
 	background-position:-500px bottom;
@@ -117,7 +117,7 @@ Rosso:						#EC1C24;
 	
 }
 
-.nav li:nth-child(6n+2) {
+.nava li:nth-child(6n+2) {
 	/*border-bottom:6px solid #93CC5F;*/
 	background-image:url(../menu-icn/menu-bg.png);
 	background-repeat:no-repeat;
@@ -127,7 +127,7 @@ Rosso:						#EC1C24;
 	-webkit-transition: background-position 0.4s;
 	-moz-transition: background-position 0.4s;
 }
-.nav li:nth-child(6n+2):hover {
+.nava li:nth-child(6n+2):hover {
 	background-image:url(../menu-icn/menu-bg.png);
 	background-repeat:no-repeat;
 	background-position:-1500px bottom;
@@ -135,7 +135,7 @@ Rosso:						#EC1C24;
 	
 }
 
-.nav li:nth-child(6n+3) {
+.nava li:nth-child(6n+3) {
 	/*border-bottom:6px solid #CC6699;*/
 	background-image:url(../menu-icn/menu-bg.png);
 	background-repeat:no-repeat;
@@ -145,14 +145,14 @@ Rosso:						#EC1C24;
 	-webkit-transition: background-position 0.4s;
 	-moz-transition: background-position 0.4s;
 }
-.nav li:nth-child(6n+3):hover {
+.nava li:nth-child(6n+3):hover {
 	background-image:url(../menu-icn/menu-bg.png);
 	background-repeat:no-repeat;
 	background-position:-2500px bottom;
 	
 	
 }
-.nav li:nth-child(6n+4) {
+.nava li:nth-child(6n+4) {
 	/*border-bottom:6px solid #FF9933;*/
 	background-image:url(../menu-icn/menu-bg.png);
 	background-repeat:no-repeat;
@@ -161,14 +161,14 @@ Rosso:						#EC1C24;
 	-webkit-transition: background-position 0.4s;
 	-moz-transition: background-position 0.4s;
 }
-.nav li:nth-child(6n+4):hover {
+.nava li:nth-child(6n+4):hover {
 	background-image:url(../menu-icn/menu-bg.png);
 	background-repeat:no-repeat;
 	background-position:-3500px bottom;
 	
 	
 }
-.nav li:nth-child(6n+5) {
+.nava li:nth-child(6n+5) {
 	/*border-bottom:6px solid #EC1C24;*/
 	background-image:url(../menu-icn/red.png);
 	background-repeat:repeat-x;
@@ -184,44 +184,44 @@ Rosso:						#EC1C24;
 @media (min-width: 50em) {
 
 	/* Transforms the list into a horizontal navigation */
-	.nav li {
+	.nava li {
 		float: left;
 		width: 16%;
 		text-align: center;
 		
 	}
-		.nav li:nth-child(6n+3) {
+		.nava li:nth-child(6n+3) {
 		width: 24%;
 	
 	}
-	.nav li:nth-child(6n+5){
+	.nava li:nth-child(6n+5){
 		width: 28%;
 	
 	}
 
-	.nav a {
+	.nava a {
 		display: block;
 		width: auto;
 	}
 
 	
 	/* Animating the height of the element*/
-	.nav a {
+	.nava a {
 		height: 86px;
 	}
 
-	.no-touch .nav a:hover ,
-	.nav a:active ,
-	.nav a:focus {
+	.no-touch .nava a:hover ,
+	.nava a:active ,
+	.nava a:focus {
 		
 		
 	}	
-	.nav a:hover ,
-	.nav a:active ,
-	.nav a:focus {
+	.nava a:hover ,
+	.nava a:active ,
+	.nava a:focus {
 
 	}
-.nav a{
+.nava a{
         line-height:80px;
 		}
 	
@@ -239,10 +239,10 @@ Rosso:						#EC1C24;
 	}
 
 	/* Size and font adjustments to make it fit into the screen*/
-	.nav ul {
+	.nava ul {
 		font-size: 1.2em;
 	}	
-	.nav img{ 
+	.nava img{ 
 	width:26px !important; 
 	height:auto !important;}
 }
@@ -251,7 +251,7 @@ Rosso:						#EC1C24;
 
 @media (max-width: 49.938em) {		
 
-	.nav li:last-child {
+	.nava li:last-child {
 		width: 100%;
 	
 	}
@@ -282,24 +282,24 @@ Rosso:						#EC1C24;
 
 		
 	/* Creating the 2 column layout using floating elements once again */
-	.nav li {
+	.nava li {
 		display: block;
 		float: left;
 		width: 50%;
 	}
 	
 	/* Adding some padding to make the elements look nicer*/
-	.nav a {
+	.nava a {
 		padding: 0.8em;		
 	}
 
 	/* Displaying the icons on the left, and the text on the right side using inlin-block*/
-	.nav li span {
+	.nava li span {
 		display: inline-block;
 	}
 
 	
-.nav li:nth-child(6n+5), .nav li:nth-child(6n+5):hover {
+.nava li:nth-child(6n+5), .nava li:nth-child(6n+5):hover {
 		text-align:center;
 		background: #EAF3F0 !important;
 		border-bottom:4px solid #EC1C24;
@@ -314,7 +314,7 @@ Rosso:						#EC1C24;
 }
 
 /* Styling the toggle menu link and hiding it */
-.nav .navtoogle{
+.nava .navatoogle{
 	display: none;	
 	width: 100%;
 	padding: 0.5em 0.5em 0.8em;
@@ -363,7 +363,7 @@ Rosso:						#EC1C24;
 
 
 	/* Unhiding the styled menu link */
-	.nav .navtoogle{
+	.nava .navatoogle{
 		margin: 0;
 		display: block;
 	}
@@ -371,19 +371,19 @@ Rosso:						#EC1C24;
 	/* Animating the height of the navigation when the button is clicked */
 	
 	/* When JavaScript is disabled, we hide the menu */
-	.no-js .nav ul {
+	.no-js .nava ul {
 		max-height: 30em;
 		overflow: hidden;
 	}
 	
 	/* When JavaScript is enabled, we hide the menu */
-	.js .nav ul {
+	.js .nava ul {
 		max-height: 0em;
 		overflow: hidden;
 	}
 	
 	/* Displaying the menu when the user has clicked on the button*/
-	.js .nav .active + ul {		
+	.js .nava .active + ul {		
 		max-height: 30em;
 		overflow: hidden;
 		-webkit-transition: max-height .4s;
@@ -395,19 +395,19 @@ Rosso:						#EC1C24;
 
 	/* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
 	
-	.nav li span {
+	.nava li span {
 		display: inline-block;
 		height: 100%;
 	}
 
-	.nav a {
+	.nava a {
 		padding: 0.5em;		
 	}
 	
 	
 	
 	/* Adding a left border of 8 px with a different color for each menu item*/
-	.nav li:nth-child(6n+1), .nav li:nth-child(6n+1):hover {
+	.nava li:nth-child(6n+1), .nava li:nth-child(6n+1):hover {
 		text-align:center;
 		background: #fff !important;
 		border-left:4px solid #FF9933;
@@ -415,26 +415,26 @@ Rosso:						#EC1C24;
 		
 	}
 
-	.nav li:nth-child(6n+2), .nav li:nth-child(6n+2):hover {
+	.nava li:nth-child(6n+2), .nava li:nth-child(6n+2):hover {
 		text-align:center;
 		background: #fff !important;
 		border-left:4px solid #93CC5F;
 	}
 
-	.nav li:nth-child(6n+3), .nav li:nth-child(6n+3):hover {
+	.nava li:nth-child(6n+3), .nava li:nth-child(6n+3):hover {
 		text-align:center;
 		background: #fff !important;
 		border-left:4px solid #CC6699;
 
 	}
 
-	.nav li:nth-child(6n+4), .nav li:nth-child(6n+4):hover {
+	.nava li:nth-child(6n+4), .nava li:nth-child(6n+4):hover {
 		text-align:center;
 		background: #fff !important;
 		border-left:4px solid #6699FF;
 	}
 
-	.nav li:nth-child(6n+5), .nav li:nth-child(6n+5):hover {
+	.nava li:nth-child(6n+5), .nava li:nth-child(6n+5):hover {
 		text-align:center;
 		background: #EAF3F0 !important;
 		border-left:4px solid #EC1C24;
@@ -442,7 +442,7 @@ Rosso:						#EC1C24;
 
 
 	/* make the nav bigger on touch screens */
-	.touch .nav a {
+	.touch .nava a {
 		padding: 0.8em;
 	}
 }

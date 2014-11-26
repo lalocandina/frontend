@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>La Locandina.it - Annunci</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- Bootstrap -->
+     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style-test.css" rel="stylesheet">
+    <link href="assets/css/menu.css" rel="stylesheet">
+    <link href="assets/css/verticalstyle.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+
+
+
+
+   <div class="container main-content">
+   
+   
+   
+       <!-- Header -->
+    <div class="row header">
+        <div class="col-md-3 col-sm-3">
+            <img src="http://placehold.it/160x90/eeeeee&amp;text=Adv+Manchette" class="img-responsive pull-left img-rounded manchette-sx hidden-xs"
+            />
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <a href="#" title="lalocandina.it" target="_self"><img src="assets/images/logo.png" class="img-responsive center-block" /></a>
+        </div>
+        <div class="col-md-3 col-sm-3">
+            <img src="http://placehold.it/160x90/eeeeee&amp;text=Adv+Manchette" class="img-responsive pull-right img-rounded manchette-dx hidden-xs"
+            />
+        </div>
+    </div>
+    <!-- Header -->
+    <!-- Menu -->
+    <div class="row">
+        
+        <style>
+        /* Clearfix */
+.clearfixed:before,
+.clearfixed:after {
+    content: " ";
+    display: table;
+}
+.clearfixed:after {
+    clear: both;
+}
+.clearfixed {
+    *zoom: 1;
+}
+
+/* Basic Styles */
+body {
+	background-color: #ece8e5;
+	margin:0px;
+	padding:0px;
+}
+nav {
+	margin: 0;
+	padding: 0;
+	
+	background: #fff;
+	position: relative;
+	display:block;
+}
+nav ul {
+	font-family: 'Asap', sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	font-weight: 300;
+	max-width:960px;
+	margin:0 auto;
+}
+nav li {
+	float: left;
+	width: 16%;
+	text-align: center;
+	display: inline;
+	float: left;
+}
+nav li.user {
+	width: 28%;
+}
+nav li.long {
+	width: 24%;
+}
+nav a {
+	color:#fff;
+	display:inline-block;
+	text-decoration:none;
+	line-height:40px;
+}
+nav li a {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	color:#495151;
+	display: block;
+	width: auto;
+	text-align: center;
+	text-decoration: none !important;
+	line-height: 80px;
+	transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+}
+nav a.annunci:hover, nav a.annunci:active {
+	background-color: #EAF2F0;
+	color:#FF9933;
+	box-shadow:inset 0px -1px 0px #FF9933;
+	-webkit-box-shadow:inset 0px -1px 0px #FF9933;
+	-moz-box-shadow:inset 0px -1px 0px #FF9933;
+}
+nav a.baratto:hover, nav a.baratto:active {
+	background-color: #EAF2F0;
+	color:#92CB5E;
+	box-shadow:inset 0px -1px 0px #92CB5E;
+	-webkit-box-shadow:inset 0px -1px 0px #92CB5E;
+	-moz-box-shadow:inset 0px -1px 0px #92CB5E;
+}
+nav a.amoltomeno:hover, nav a.amoltomeno:active {
+	background-color: #EAF2F0;
+	color:#CB6598;
+	box-shadow:inset 0px -1px 0px #CB6598;
+	-webkit-box-shadow:inset 0px -1px 0px #CB6598;
+	-moz-box-shadow:inset 0px -1px 0px #CB6598;
+}
+nav a.agora:hover, nav a.agora:active {
+	background-color: #EAF2F0;
+	color:#6699FF;
+	box-shadow:inset 0px -1px 0px #6699FF;
+	-webkit-box-shadow:inset 0px -1px 0px #6699FF;
+	-moz-box-shadow:inset 0px -1px 0px #6699FF;
+}
+
+nav a#pull {
+	display: none;
+}
+nav ul li img{
+	width: 34px;
+	height: auto !important;
+	display: inline !important;
+	vertical-align: middle;
+	margin-right:4px;}
+
+@media screen and (min-width: 768px) {
+nav ul li{
+	border-right:1px solid #eee;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;}
+	}
+
+@media screen and (max-width: 991px) {
+nav ul li img{
+	width: 26px !important;
+	}
+}
+
+
+
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 678px) {
+	nav { 
+  		height: auto;
+  	}
+  	nav ul {
+  		width: 100%;
+  		display: block;
+  		height: auto;
+  	}
+  	nav li {
+  		width: 50% !important;
+  		float: left;
+  		position: relative;
+		
+  	}
+	nav li.user {
+  		width:100% !important;
+		}
+  	nav li a {
+		text-indent: 0px;
+	}
+  	nav a {
+	  	text-align: left;
+	  	width: 100% !important;
+	  	text-indent: 25px;
+  	}
+}
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 678px) {
+	nav {
+		border-bottom: 0;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a#pull {
+		display: block;
+		background-color: #B8252B;
+		font-family: 'Asap', sans-serif;
+		width: 100%;
+		position: relative;
+		text-decoration: none !important;
+		text-transform: uppercase;
+		color: white !important;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('assets/images/nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+	nav li {
+  		width: 50% !important;
+  		float: left;
+  		position: relative;
+		
+  	}
+	nav li.user {
+  		width:100% !important;
+		}
+  	nav li a {
+		text-indent: 0px;
+	}
+}
+        </style>
+        
+            <nav class="clearfixed">
+		<ul class="clearfixed">
+			<li><a class="annunci" href="#"><img src="http://alicantoisland.com/lalocandina/code/assets/menu-icn/menu-annunci.png">Annunci</a></li>
+			<li><a class="baratto" href="#"><img src="http://alicantoisland.com/lalocandina/code/assets/menu-icn/menu-baratto.png">Baratto</a></li>
+			<li class="long"><a class="amoltomeno" href="#"><img src="http://alicantoisland.com/lalocandina/code/assets/menu-icn/menu-amoltomeno.png">A Molto Meno</a></li>
+			<li><a class="agora" href="#"><img src="http://alicantoisland.com/lalocandina/code/assets/menu-icn/menu-agora.png">Agor&agrave;</a></li>
+			<li class="user"><a href="#" title=""> <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-default login-btn btn-default">Accedi</button> <!--<font style="text-transform: lowercase;">- o -</font>--> <button type="button" class="btn btn-danger registration-btn btn-default">Registrati</button> </a></li>
+		</ul>
+		<a href="#" id="pull">Menu</a>
+	</nav>
+        
+    </div>
+    <!-- Menu -->
+    
+
+    
+    
+    
+
+    
+    
+    <div style="clear: both;"></div>
+    <!-- Search Area -->
+    <form class="form-inline">
+        <div class="row main-form-row-map">
+       
+<div class="col-md-3 col-sm-3  col-xs-12">
+				<input type="text" class="form-control input-home" placeholder="Parola Chiave">
+                
+            </div>
+            <div class="col-md-4 col-sm-4  col-xs-12">
+               <select class="form-control select-home" placeholder="Parola Chiave" style="width:100%;" width="100%">
+               <option value="" disabled="disabled" selected="selected">Categoria</option>
+    <optgroup label="Picnic">
+      <option>Mustard</option>
+      <option>Ketchup</option>
+      <option>Relish</option>
+    </optgroup>
+    <optgroup label="Camping">
+      <option>Tent</option>
+      <option>Flashlight</option>
+      <option>Toilet Paper</option>
+    </optgroup>
+  </select>
+                
+                
+    
+                </div>
+                
+            <div class="col-md-1 col-sm-1 col-xs-12">
+                <button type="submit" class="btn btn-default red-input-btn btn-default hidden-xs">
+                    <img src="assets/images/red-search-btn.png" onmouseover="this.src='assets/images/red-search-btn-hover.png'" onmouseout="this.src='assets/images/red-search-btn.png'"  class="img-responsive" />
+                </button>
+               <button type="submit" class="btn btn-lg btn-success visible-xs center-block" style="margin:10px auto 20px auto;">Avvia Ricerca</button>
+                
+            </div>
+                    
+        
+         <div class="col-md-4 col-sm-4 col-xs-12" >
+        
+         <button type="submit" class="btn btn-danger btn-block btn-lg addL-btn "><span class="glyphicon glyphicon-plus"></span> Inserisci annuncio</button>
+        
+            </div>
+        
+        </div>
+    </form>
+    <!-- Search Area -->
+    <script>
+    
+    </script>
+    
+    <!-- Area Home -->
+    
+    <div class="row map-row">
+	<div class="inner-bg"></div>
+	
+	<div class="geo-box"><span class="myPos">La tua posizione:</span><br>
+		Strada Provinciale della Libbia, Arezzo AR, Italia<br>
+		<a href="#">Cambia Posizione </a> 
+	</div>
+	
+	
+		    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d77955.1842105884!2d4.884793402912963!3d52.36861567718981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sit!2sit!4v1398698477773" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+	  
+    </div>
+    
+    
+    
+
+
+ <!-- Area Sezioni Slider -->
+ <div class="row">
+ 	
+ 		<!-- Colonna sinistra -->
+ 		<div class="col-md-8 col-sm-12 ">
+ 		<div class="row">
+ 		<!-- annunci -->
+ 		<div class="col-md-4 col-sm-4">
+	 		<div class="row"> 
+		 		<div class="col-md-3"><span class="annunci-home-circle"></span></div>	
+		 		<div class="col-md-9"><span class="annunci-home-title gfont"><b>Annunci</b><br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do       eiusmod tempor incididunt ut labore.</span></div>
+		 	</div>	
+		 	<div class="row">
+		 	<div class="col-md-12 annunci-home">
+			 	<div id="VerticalAnnunci" class="vertical-carousel">
+	<a href="javascript:void(0)" class="scru up"></a>
+	<div class="vertical-carousel-container">
+		<ul class="vertical-carousel-list">
+			<li>
+			<div class="ribbon">
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			</div>
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+			<li>
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+			<li>
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+			<li>
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+		</ul>
+	</div>
+	<a href="javascript:void(0)" class="scrd down"></a>
+</div>
+		 	</div>
+		 	</div>
+ 		 <div class="clearfixTall"></div></div>
+ 		<!-- Annunci fine -->
+ 		<!-- baratto -->
+ 		<div class="col-md-4 col-sm-4">
+	 		<div class="row"> 
+		 		<div class="col-md-3"><span class="baratto-home-circle"></span></div>	
+		 		<div class="col-md-9"><span class="baratto-home-title gfont"><b>Baratto</b><br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do       eiusmod tempor incididunt ut labore.</span></div>
+		 	</div>	
+		 	<div class="row">
+		 	<div class="col-md-12 baratto-home">
+			 	<div id="VerticalBaratto" class="vertical-carousel">
+	<a href="javascript:void(0)" class="scru up"></a>
+	<div class="vertical-carousel-container">
+		<ul class="vertical-carousel-list">
+			<li>
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+			<li>
+			<div class="ribbon">
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			</div>
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+			<li>
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+			<li>
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+		</ul>
+	</div>
+	<a href="javascript:void(0)" class="scrd down"></a>
+</div>
+		 	</div>
+		 	</div>
+ 		 <div class="clearfixTall"></div></div>
+ 		<!-- baratto fine -->
+ 		<!-- a molto meno -->
+ 		<div class="col-md-4 col-sm-4">
+	 		<div class="row"> 
+		 		<div class="col-md-3"><span class="amoltomeno-home-circle"></span></div>	
+		 		<div class="col-md-9"><span class="amoltomeno-home-title gfont"><b>A Molto Meno</b><br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do       eiusmod tempor incididunt ut labore.</span></div>
+		 	</div>	
+		 	<div class="row">
+		 	<div class="col-md-12 amoltomeno-home">
+			 	<div id="VerticalAmoltomeno" class="vertical-carousel">
+	<a href="javascript:void(0)" class="scru up"></a>
+	<div class="vertical-carousel-container">
+		<ul class="vertical-carousel-list">
+			<li>
+			<div class="ribbon">
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			</div>
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+			<li>
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+			<li>
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+			<li>
+			<img src="http://placehold.it/90x90/eeeeee/eeeeee">
+			<p class="gfont"><b>Some text here!</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+			<button type="button" class="btn btn-link">Vai alla sezione</button>
+			</li>
+		</ul>
+	</div>
+	<a href="javascript:void(0)" class="scrd down"></a>
+</div>
+		 	</div>
+		 	</div>
+ 		 <div class="clearfixTall"></div></div>
+ 		<!-- a molto meno fine -->
+ 		</div>
+ 		</div>
+	 	
+	 	<!-- Colonna destra -->
+	 	<div class="col-md-4 col-sm-12">
+
+		 	<div class="row">
+<div class="col-md-12 col-sm-6">
+
+
+<div class="row">
+<div class="col-md-2"><span class="agora-home-circle"></span></div>	
+<div class="col-md-10"><span class="agora-home-title gfont"><b>Agor&agrave;</b><br/>Lorem ipsum dolor sit amet, consectetur adipisicing </span></div>
+</div>
+
+
+<div class="row">
+<div class="col-md-12 agora-home">
+<p class="title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+<img class src="http://www.placehold.it/500x200/f7f7f7/f7f7f7">
+<p class="subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+<a href="#" target="_blank"><font color="#ffffff">Vai alla sezione</font></a>
+</div>
+
+</div>
+<div class="clearfixTall"></div>
+</div>
+
+
+
+<div class="col-md-12 col-sm-6" align="center">
+
+
+<img src="http://placehold.it/300x250/dddddd/dddddd">
+
+
+</div>
+		 	</div>
+</div>
+
+ 
+
+
+
+<!-- Divider -->
+<div class="row">
+    <div class="col-md-12 colored-divider"></div>
+</div>
+<!-- Divider -->
+
+
+  <!-- Area articoli -->
+  <div class="row">
+  <div class="col-md-12 col-sm-12">
+  	 <div class="row">
+	 <div class="col-md-6 col-sm-6 home-redazionale">
+		 <h3>Redazionale</h3>
+		 <img src="http://placehold.it/400x160/eeeeee/eeeeee">
+		 <div class="row">
+		 	<div class="col-md-12 icon">
+		 	<div class="row">
+		 	<div class="col-md-4">
+		 	<span class="glyphicon glyphicon-time"></span> 10 feb 2014
+		 	</div>
+		 	<div class="col-md-4">
+		 	<span class="glyphicon glyphicon-user"></span> Lorem ipsum
+		 	</div>
+		 	<div class="col-md-4">
+		 	<span class="glyphicon glyphicon-tag"></span> The TAG
+		 	</div>
+		 	</div>
+		 	</div>
+		 </div>
+		 <p class="redaz-title gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		 <p class="redaz-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		 <a href="#" class="btn btn-default" role="button">Leggi l'articolo</a>
+	 <div class="clearfixTall"></div></div>
+	 <div class="col-md-6 col-sm-6 home-news">
+		 <div class="row">
+		 	<div class="col-md-12">
+		 	<!-- Nav tabs -->
+            <ul class="nav nav-tabs" id="home-tab">
+  <li class="active  home-news-tab"><a href="#recent" data-toggle="tab">Recenti</a></li>
+  <li class="home-news-tab"><a href="#commented" data-toggle="tab">Pi&ugrave; Discusse</a></li>
+  <li class="home-news-tab"><a href="#read" data-toggle="tab">Pi&ugrave; Lette</a></li>
+</ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+  <div class="tab-pane  home-news-tab-content active" id="recent">
+	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  </div>
+	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  </div>
+	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  </div>
+	  </div>
+  </div>
+  <div class="tab-pane  home-news-tab-content" id="commented">
+	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  </div>
+	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  </div>
+	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  </div>
+	  </div>
+
+  </div>
+  <div class="tab-pane  home-news-tab-content" id="read">
+	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  </div>
+	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  </div>
+	  <div class="tab-listing">
+	  	  <div class="row">
+	  	  <div class="col-md-3">
+		  <img src="http://www.placehold.it/80x80/dddddd/dddddd">
+	  	  </div>
+	  	  <div class="col-md-9">
+		  <p class="ht-title gfont">Some text here</p>
+		  <p class="ht-subtitle gfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...<a href="#" target="_blank"> Read More</a></p>
+	  	  </div>
+	  	  </div>
+	  </div>
+	  </div>
+
+  </div>
+</div>
+		 	
+		 	</div>
+		 </div>
+	 <div class="clearfixTall"></div></div>
+  	 </div>
+     </div>
+	 </div>
+
+
+<!-- Divider -->
+<div class="row">
+    <div class="col-md-12 colored-divider"></div>
+</div>
+<!-- Divider --
+ 
+   <!-- Area video -->
+   <div class="row">
+   	<div class="col-md-12 col-sm-12 home-video">
+   		<div class="col-md-6 col-sm-6">
+	   		<h3 class="gfont">Ultimo tutorial  <span class="pull-right"><span class="glyphicon glyphicon-time "></span> 10 Apr</span></h3>
+	   		<div class="video-container">
+         <iframe src="http://www.youtube.com/embed/0gQ31m4Yt0s&title=0" frameborder="0" width="560" height="315"></iframe>
+         </div>
+   		</div>
+   		<div class="col-md-6 col-sm-6">
+	   		<h3 class="gfont">Ultimo video  <span class="pull-right"><span class="glyphicon glyphicon-time "></span> 10 Apr</span></h3>
+	   		<div class="video-container">
+         <iframe src="http://www.youtube.com/embed/0gQ31m4Yt0s&title=0" frameborder="0" width="560" height="315"></iframe>
+         </div>
+
+   		</div>
+   	</div>
+   </div>
+
+<div class="clearfix clearfixTall"></div>
+
+</div>
+   </div>
+<!-- Footer -->
+<div class="footer">
+    <div class="row">
+        <div class="col-md-12 col-sm-12  footer-top"></div>
+    </div>
+    <div class="row footer-content">
+        <div class="col-md-12 col-sm-12">
+            <div class="container">
+                <div class="row footer-row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        
+<h4><span>Lorem ipsum</span></h4>
+                        <img class="img-responsive" src="http://placehold.it/250x100/dddddd&amp;text=&infin;"
+                        />
+                        <p class="gfont italic-font thin-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt...</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12" id="link-area">
+                        
+<h4><span>Some Link Here</span></h4>
+                        <ul class="gfont italic-font">
+                            <li><a href="" target="_blank" title="">Lorem ipsum</a></li>
+                            <li><a href="" target="_blank" title="">Lorem ipsum</a></li>
+                            <li><a href="" target="_blank" title="">Lorem ipsum</a></li>
+                            <li><a href="" target="_blank" title="">Lorem ipsum</a></li>
+                        </ul>
+                        <hr />
+                        <ul class="gfont italic-font">
+                            <li><a href="" target="_blank" title="">Lorem ipsum</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        
+<h4><span>Some text here</span></h4>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td width="58">
+                                        <img class="img-circle footer-thumbnails img-responsive" src="http://placehold.it/50x50/eeeeee&amp;text=&infin;"
+                                        />
+                                    </td>
+                                    <td class="bordered-td"><a href="" target="_blank" title=""><span class="gfont thin-font italic-font table-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="58">
+                                        <img class="img-circle footer-thumbnails img-responsive" src="http://placehold.it/50x50/eeeeee&amp;text=&infin;"
+                                        />
+                                    </td>
+                                    <td class="bordered-td"><a href="" target="_blank" title=""><span class="gfont thin-font italic-font table-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="58">
+                                        <img class="img-circle footer-thumbnails img-responsive" src="http://placehold.it/50x50/eeeeee&amp;text=&infin;"
+                                        />
+                                    </td>
+                                    <td class="bordered-td"><a href="" target="_blank" title=""><span class="gfont thin-font italic-font table-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12" id="contact-area">
+                        
+<h4><span>Contacts</span></h4>
+                        <ul class="gfont italic-font">
+                            <li class="footer-map">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li class="footer-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li class="footer-mouse">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        </ul>
+<a href="#" class="footer-link link-facebook"></a>
+<a href="#" class="footer-link link-twitter"></a>
+                        <a
+                        href="#" class="footer-link link-google"></a>
+<a href="#" class="footer-link link-rss"></a>
+<a href="#" class="footer-link link-point"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row copyright gfont">
+        <div class="col-md-12 col-sm-12">
+            <div class="container">
+                <div class="col-md-6 col-sm-6">
+                    <p>Copyright © 2013 - Lalocandina.it</p>
+                </div>
+                <div class="col-md-6 col-sm-6 text-right">
+                    <p><a href="#">page one</a>|<a href="#">page two</a>|<a href="#">page three</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+   <!-- Footer -->
+  
+   
+    <!-- Javascript Code -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.verticalCarousel.min.js"></script>
+    <script>
+    $(document).ready(function(){ 
+    $("#VerticalAnnunci").verticalCarousel({nSlots: 2, speed: 400});
+    $("#VerticalBaratto").verticalCarousel({nSlots: 2, speed: 400});
+    $("#VerticalAmoltomeno").verticalCarousel({nSlots: 2, speed: 400});
+    });
+    </script>
+    <script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+
+  </body>
+</html>

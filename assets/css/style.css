@@ -73,9 +73,27 @@ body{background:#daacc8;background:-moz-radial-gradient(center,ellipse cover,#da
 /* ==============================================================================================
 								Fom di Ricerca
 ==============================================================================================*/
+.select-home{height:50px !important;
+	border-width:0px 0px 4px 0px !important;
+	border-radius:0px !important;
+	-moz-border-radius:0px !important;
+	-webkit-border-radius:0px !important;
+	font-size:14px !important;
+	width: 100%;
+}
+.input-home{height:50px !important;
+	border-width:0px 0px 4px 0px !important;
+	border-radius:0px !important;
+	-moz-border-radius:0px !important;
+	-webkit-border-radius:0px !important;
+	font-size:14px !important;
+	width: 100%;
+	border-color:#EC1C24 !important;
+	outline:none;
+}
 .main-form{
-	font-size:23px !important;
-	font-weight:700 !important;
+	font-size:18px !important;
+	font-weight:500 !important;
 	border-style:solid !important;
 	border-width:0px 0px 4px 0px !important;
 	border-radius:0px !important;
@@ -2527,3 +2545,238 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7c1a', end
 .action-area-btn{
 	margin-top: 5px;
 }
+/* ############################################################################################
+ ##################################Sezione: HOMEPAGE  ##################################
+ ############################################################################################*/
+ 
+ .agora-home-circle{
+     display: inline-block;
+	 width:40px;
+	 height:40px;
+	 background: url(../images/home/section-circle.png) no-repeat;
+	 background-position: -120px 0px;
+ }
+ .agora-home-title{
+	 display: inline-block;
+	 font-size: 14px;
+	 color: #666;
+	 font-style: italic;
+ }
+  .agora-home-title b{
+ color: #6699ff;
+	
+ }
+ .agora-home{
+	 background: url(../images/home/blue-pattern.png) repeat;
+	 border-top:4px solid #6699FF;
+ }
+ .agora-home .title{
+ 	 padding-top: 5px;
+	 font-size:18px;
+	 font-style: italic;
+	 text-align: center;
+	 color: #fff;
+	 text-shadow: 0px 1px 0px rgba(0,0,0,0.2);
+	 font-weight: 400;
+ }
+ .agora-home img{
+	 width: 100% !important;
+	 height: auto; 
+ }
+ .agora-home .subtitle{
+ 	 padding-top: 5px;
+	 font-size:14px;
+	 font-style: italic;
+	 text-align: justify;
+	 color: #666666;
+	 font-weight: 400;
+ }
+ .agora-home button{
+	 color: #ffffff !important;
+ }
+ .adv-right{
+	 text-align: center;
+	 padding-top:15px; 
+ }
+ .annunci-home-circle{
+     display: inline-block;
+	 width:40px;
+	 height:40px;
+	 background: url(../images/home/section-circle.png) no-repeat;
+	 background-position: 0px 0px;
+ }
+ .annunci-home-title{
+	 display: inline-block;
+	 font-size: 13px;
+	 color: #666;
+	 font-style: italic;
+ }
+  .annunci-home-title b{
+ color: #FF9933;
+	
+ }
+.annunci-home{
+	 background: url(../images/home/orange-pattern.png) repeat;
+	 border-top:4px solid #FF9933;
+ }
+ .baratto-home-circle{
+     display: inline-block;
+	 width:40px;
+	 height:40px;
+	 background: url(../images/home/section-circle.png) no-repeat;
+	 background-position: -40px 0px;
+ }
+ .baratto-home-title{
+	 display: inline-block;
+	 font-size: 13px;
+	 color: #666;
+	 font-style: italic;
+ }
+  .baratto-home-title b{
+ color: #93CC5F;
+	
+ }
+.baratto-home{
+	 background: url(../images/home/green-pattern.png) repeat;
+	 border-top:4px solid #93CC5F;
+ }
+  .amoltomeno-home-circle{
+     display: inline-block;
+	 width:40px;
+	 height:40px;
+	 background: url(../images/home/section-circle.png) no-repeat;
+	 background-position: -80px 0px;
+ }
+ .amoltomeno-home-title{
+	 display: inline-block;
+	 font-size: 13px;
+	 color: #666;
+	 font-style: italic;
+ }
+  .amoltomeno-home-title b{
+ color: #CC6699;
+	
+ }
+.amoltomeno-home{
+	 background: url(../images/home/violet-pattern.png) repeat;
+	 border-top:4px solid #CC6699;
+ }
+ .clearfixTall{
+	 height: 15px;
+ }
+ .home-redazionale h3{
+	 color: #999;
+ }
+ .home-redazionale img{
+	 width: 100% !important;
+	 height: auto;
+	 border-top: 4px solid #669999;
+ }
+ .home-redazionale .icon{
+	 background-color: rgba(102,153,153,0.6);
+	 color:white;
+	 text-shadow:0px 1px 0px rgba(0,0,0,0.2);
+	 line-height: 40px;
+ }
+.redaz-title{
+	color: #666;
+	font-size:22px;
+	font-weight: normal;
+	font-style: italic;
+}
+.redaz-subtitle{
+	font-size: 14px;
+	}
+ 
+ .home-news-tab a{
+ 	 color: #fff;
+ 	 font-weight: bold;
+	 font-size: 16px !important;
+	 background-color: #B2CCCC;
+ }
+ .home-news-tab a:hover{
+ 	 color: #666;
+ }
+ #home-tab > li.active >  a{
+	 color: #669999 !important;
+	 background-color: #D1E0E0 !important;
+ }
+ .home-news-tab-content{
+	 background-color: #D1E0E0 !important;
+ }
+  .tab-listing {
+	  padding: 10px;
+  }
+ .tab-listing img{
+	 width: 80px;
+	 height: 80px;
+	 border: 6px solid #ffffff;
+	 border-radius: 80px;
+	 -moz-border-radius: 80px;
+	 -webkit-border-radius: 80px;
+	 box-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+	 -webkit-box-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+	 -moz-box-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+ }
+ .tab-listing .ht-title{
+	 color:#669999;
+	 font-size: 14px;
+	 text-transform: uppercase;
+	 font-style: italic;
+ }
+  .tab-listing .ht-subtitle{
+	 color:#666666;
+	 font-size: 14px;
+	 font-style: italic;
+ }
+ .tab-listing .ht-subtitle a{
+	 color:#669999;
+ }
+ .home-video h3{
+	 color: #fff;
+	 font-style: italic;
+	 font-weight: normal;
+	 font-size:26px;
+	 background-color: #444;
+	 border-bottom: 4px solid #333333;
+	 padding: 5px;
+	 margin-bottom: 0px;
+ }
+ .home-video h3  .pull-right{
+	 font-size:18px;
+	 line-height: 36px;
+ }
+ .home-video .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+ .home-video .video-container iframe,
+ .home-video .video-container object,
+ .home-video .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.map-row{
+	position: relative;
+}
+.map-row .inner-bg{
+	background: url(../images/home/map-bg-bottom.png) no-repeat;
+	width: 100%;
+	height: 66px;
+	position: absolute;
+	z-index: 10;
+	bottom:0px;
+}
+.main-form-row-map{
+	background:url(../images/grey-line-red-bg.png) no-repeat bottom #666;
+	box-shadow:inset 0px 12px 0px rgba(0,0,0,0.16);
+	-moz-box-shadow:inset 0px 12px 0px rgba(0,0,0,0.16);
+	-webkit-box-shadow:inset 0px 12px 0px rgba(0,0,0,0.16);
+	text-align:center;
+	padding:22px 0px !important;
+	}
